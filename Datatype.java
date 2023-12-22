@@ -3,15 +3,15 @@ public class Datatype {
         // Integer DT
         byte myByte = 10;
         short myShort = 100;
-        int myint = 1000;
-        long myLong = 10000L;
+        int myint = 42;
+        long myLong = 242587L;
 
         // floating DT
         float myFloat = 3.14f;
-        double myDouble = 5.12345;
+        double myDouble = 3.14159;
 
         // char DT
-        char myChar = 'T';
+        char myChar = 'A';
 
         // boolean DT
         boolean myBool = true;
