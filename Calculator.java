@@ -35,7 +35,9 @@ public class Calculator{
             result = num1/num2;
             break;
 
-
+            default:
+                System.out.println("Error: Invalid operation.");
+                return;
         }
         System.out.println("Ans :"+result);
 
