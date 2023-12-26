@@ -6,17 +6,17 @@ public class Large_no{
       
 
         System.out.println("Enter a 1st number :");
-        int num1 = obj.nextInt();
+        int firstnumber = obj.nextInt();
 
         System.out.println("Enter a 2nd Number :");
-        int num2 = obj.nextInt();
+        int secondnumber = obj.nextInt();
 
         int larger_no;
 
-        if(num1>num2){
-            larger_no = num1;
+        if(firstnumber>secondnumber){
+            larger_no = firstnumber;
         }else{
-            larger_no = num2;
+            larger_no = secondnumber;
         }
 
         System.out.println("The larger number is:"+ larger_no);
